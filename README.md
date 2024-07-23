@@ -1,3 +1,8 @@
 # Redux Counter
 
-## A simple React/Redux counter app
+## A simple counter app
+---
+
+## Technologies
+- React
+- Redux (core)
