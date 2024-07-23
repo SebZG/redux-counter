@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-import { store } from './store';
+import { store } from './store.js';
 
 // import reportWebVitals from './reportWebVitals';
 
@@ -16,6 +16,8 @@ const render = () => {
 		</React.StrictMode>
 	)
 }
+
+render();
 
 store.subscribe(render);
 
